@@ -3,7 +3,7 @@ requires = ["maturin>=1.8,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "openai-harmony"
+name = "oss-harmony"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Rust",
@@ -12,7 +12,7 @@ classifiers = [
 ]
 dynamic = ["version"]
 dependencies = ["pydantic>=2.11.7"]
-description = "OpenAI's response format for its open-weight model series gpt-oss"
+description = "Response format library for the gpt-oss open-weight model series (fork of openai-harmony)"
 readme = "README.md"
 
 [project.optional-dependencies]

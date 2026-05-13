@@ -1,13 +1,13 @@
 # Python API Reference
 
-The `openai-harmony` package exposes the Harmony renderer to Python via thin bindings generated with `PyO3`.  It installs a module named `openai_harmony` which re‑exports a set of dataclasses mirroring the structures from the Rust crate together with helper classes for encoding and parsing.
+The `oss-harmony` package exposes the Harmony renderer to Python via thin bindings generated with `PyO3`.  It installs a module named `openai_harmony` which re‑exports a set of dataclasses mirroring the structures from the Rust crate together with helper classes for encoding and parsing.
 
 ## Installation
 
 Install the package from PyPI:
 
 ```bash
-pip install openai-harmony
+pip install oss-harmony
 ```
 
 Typical imports look like:

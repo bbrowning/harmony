@@ -1,10 +1,10 @@
 [package]
-name = "openai-harmony"
+name = "oss-harmony"
 version = "0.0.8"
 edition = "2021"
 license = "Apache-2.0"
-repository = "https://github.com/openai/harmony"
-description = "OpenAI's response format for its open-weight model series gpt-oss"
+repository = "https://github.com/oss-harmony/harmony"
+description = "Response format library for the gpt-oss open-weight model series (fork of openai-harmony)"
 
 [lib]
 name = "openai_harmony"

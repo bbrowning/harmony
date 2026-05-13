@@ -1,7 +1,7 @@
 <center>
 <img alt="harmony" src="./docs/header.png">
-<h1 align="center">OpenAI Harmony</h1>
-<p align="center">OpenAI's response format for its open-weight model series <a href="https://openai.com/open-models">gpt-oss</a>
+<h1 align="center">Harmony</h1>
+<p align="center">Response format library for the <a href="https://openai.com/open-models">gpt-oss</a> open-weight model series (fork of <a href="https://github.com/openai/harmony">openai-harmony</a>)
 <br>
 <a href="https://gpt-oss.com" target="_blank">Try gpt-oss</a> | <a href="https://cookbook.openai.com/topic/gpt-oss">Learn more</a> | <a href="https://openai.com/index/gpt-oss-model-card/">Model card</a>
 </p>
@@ -62,9 +62,9 @@ We recommend using this library when working with models that use the [harmony r
 Install the package from PyPI by running
 
 ```bash
-pip install openai-harmony
+pip install oss-harmony
 # or if you are using uv
-uv pip install openai-harmony
+uv pip install oss-harmony
 ```
 
 #### Example
@@ -108,7 +108,7 @@ Add the dependency to your `Cargo.toml`
 
 ```toml
 [dependencies]
-openai-harmony = { git = "https://github.com/openai/harmony" }
+oss-harmony = { git = "https://github.com/oss-harmony/harmony" }
 ```
 
 #### Example
@@ -171,7 +171,7 @@ through thin [`pyo3`](https://pyo3.rs/) bindings.
 #### 1. Clone & bootstrap
 
 ```bash
-git clone https://github.com/openai/harmony.git
+git clone https://github.com/oss-harmony/harmony.git
 cd harmony
 # Create & activate a virtualenv
 python -m venv .venv

@@ -7,7 +7,7 @@ The Rust crate provides the core rendering and parsing logic. It is organised in
 Add the crate to your `Cargo.toml`:
 
 ```toml
-openai-harmony = { git = "https://github.com/openai/harmony" }
+oss-harmony = { git = "https://github.com/oss-harmony/harmony" }
 ```
 
 and import the items you need:
